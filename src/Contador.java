@@ -23,7 +23,7 @@ public class Contador {
         if (parametroUm > parametroDois) throw new ParametrosInvalidosException("O primeiro parâmetro é maior que o segundo");
         int contagem = parametroDois - parametroUm;
         // if (contagem < 0) throw new ParametrosInvalidosException("O primeiro parâmetro é maior que o segundo");
-        for (int i = 1; i < contagem; i++) {
+        for (int i = 1; i <= contagem; i++) {
             System.out.println("Imprimindo o numero " + i);
         }
     }
